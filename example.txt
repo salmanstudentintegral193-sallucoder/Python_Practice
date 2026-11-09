@@ -1,3 +1,0 @@
-Hello, this is an example of file handling in Python.
-This file is created for demonstration purposes.
-This is a new line.
