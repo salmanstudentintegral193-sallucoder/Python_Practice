@@ -10,17 +10,17 @@
 #     print("Hello!,Salman Bhai.")
 # say_hello()    
 # Decorators with arguments
-def arg_decorator(func):
-    def wrapper(*args,**kwargs):
-        print("Before the function is called.")
-        result = func(*args,**kwargs)
-        print("After the function is called.")
-        return result
-    return wrapper  
-@arg_decorator
-def Addition(a,b):
-    print(f"Adding {a} and {b}")
-    return a + b
+# def arg_decorator(func):
+#     def wrapper(*args,**kwargs):
+#         print("Before the function is called.")
+#         result = func(*args,**kwargs)
+#         print("After the function is called.")
+#         return result
+#     return wrapper  
+# @arg_decorator
+# def Addition(a,b):
+#     print(f"Adding {a} and {b}")
+#     return a + b
 
-result = Addition(5, 3)
-print(f"Result: {result}")
+# result = Addition(5, 3)
+# print(f"Result: {result}")
